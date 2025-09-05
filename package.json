@@ -2,7 +2,7 @@
   "name": "websitereborn",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tinyslimestudio.dev",
+  "homepage": "https://TinySlimeStudio.github.io/WebsiteReborn/",
   "type": "module",
   "scripts": {
     "dev": "vite",

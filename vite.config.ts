@@ -6,6 +6,7 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // Serve from site root (needed for custom domain / root deployment)
   base: "/",
   resolve: {
     alias: {

@@ -1,19 +1,16 @@
 {
-  "homepage": "https://tinyslimestudio.dev/",
   "name": "websitereborn",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "build": "tsc -b && vite build",
+  "deploy": "npm run build",
+  "lint": "eslint .",
+  "preview": "vite preview"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.13",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -36,7 +33,6 @@
     "tw-animate-css": "^1.3.8",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-  "vite": "^7.1.2",
-  "gh-pages": "^5.0.0"
+    "vite": "^7.1.2"
   }
 }
